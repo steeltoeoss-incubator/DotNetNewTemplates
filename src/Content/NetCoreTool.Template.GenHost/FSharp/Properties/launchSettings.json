@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "Company.WebApplication.FS": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
+      "launchBrowser": true,
+      //#if (FrameworkNet60 || FrameworkNet50)
+      "launchUrl": "swagger",
+      //#else
+      "launchUrl": "weatherforecast",
+      //#endif
+      "applicationUrl": "http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
