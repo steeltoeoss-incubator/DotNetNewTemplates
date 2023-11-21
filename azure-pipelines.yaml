@@ -10,6 +10,9 @@ variables:
   value: 1
 - group: PackageSigningSecrets
 
+pool:
+  vmImage: ubuntu-latest
+
 stages:
 - stage: assemble
   displayName: Assemble
